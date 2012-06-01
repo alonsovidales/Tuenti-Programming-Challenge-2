@@ -1,0 +1,22 @@
+A crazy scientist has invented a wonderful cloning machine. He is offering it to a group of N people in order to test its performance. The machine has just started to do the magic. However, something strange is happening. Instead of creating perfect clones, the artifact is having some trouble.
+Each time a person tries to be cloned, an unpredictable V number of clones appear, occasionally with very different appearances. As expected, the person doesn’t like the result and they return to the machine to try it again.
+The scientist has noticed this issue and he is trying to adjust its behavior. To do so, he is cloning all the people in the queue, and after the queue is empty he regulates the machine, changes the settings, and starts over in the same order as the previous test.
+After C series of clones, the scientist desists and runs away from his laboratory, leaving a furious crowd of people.
+Note: if a transformation is not specified, it is supposed that the person is not cloned and he returns to the queue with no alteration.
+Input
+The input is composed of two parts. First, the original queue of people waiting to be cloned, each one represented as a single character. The second part is the list of T transformations that are done in each one of the C series, represented as PERSON_LIKE_x=>CLONES,PERSON_LIKE_y=>CLONES.
+Ouput
+MD5 sum of the queue of people after the C series.
+Limits
+N ≤ 105 
+C ≤ 15 
+T ≤ 52 
+V ≤ 10 
+Sample input
+abadrec
+a=>ca,d=>pip,u=>as
+p=>vt,e=>yt
+Sample output
+81f63bcb2f85d1f1118df246f588c4d1
+
+https://contest.tuenti.net/Questions?id=8

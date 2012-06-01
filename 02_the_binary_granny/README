@@ -1,0 +1,13 @@
+Yuki is a lucky girl. Her grandma Chika is a lovely old lady, owner of a sheep farm, expert baker and knitting ninja, and has a hazelnut tree in her backyard. Yuki is always craving the super tasty hazelnuts that can be picked from it and asking for more and more. But her grandma is a wise woman and she doesn’t want to spoil Yuki or to make her sick with all the hazelnuts she can eat.
+Chika is quite a fan of binary numbers and uses base 2 for everything (and I can assure you she has never been cheated when buying groceries). She came up with the following simple game for Yuki: she would say a number N and Yuki would choose two numbers, x and y, such that x + y = N. Then Chika would give Yuki as many hazelnuts as the sum of the number of ones of x and y in base 2. For example, if Chika chooses 7 and Yuki picks 3 and 4, then she will get 2 (as 3 in base 2 is 11) plus 1 (since 4 in base 2 is 100): 3 hazelnuts.
+Yuki wants to know what the maximum number of hazelnuts that she could get from Chika.
+Input
+The first line of the input gives the number of test cases, C, and C test cases follow. Each test case consists of a line with an integer N, 0 ≤ N.
+Output
+For each test case, output one line containing "Case #x: M", where x is the case number (starting from 1) and M is the maximum number of hazelnuts that Yuki can get from her binary grandmother.
+Limits:
+1 ≤ C ≤ 2000 
+Test dataset: N ≤ 104 
+Challenge dataset: N ≤ 1019 (may not fit in a 32 bit integer)
+
+https://contest.tuenti.net/Questions?id=2

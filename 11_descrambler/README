@@ -1,0 +1,30 @@
+Tired of losing at scrabble-like games? You’re not alone! If you can't beat your opponent on your own, it’s time to think of some dirty tricks. ;)
+
+Here’s how: given a word list (attached here) and a scrabble board with just one horizontal word on it, use the letters in your rack to earn as many points as possible placing a vertical word on the board.
+The scrabble board is simplified: there are no special score boosters, and it has unlimited size in all directions.
+Rules
+It is forbidden to extend the horizontal word on the board. Your vertical word must cross one of its letters.
+Move allowed (HELL in the board):
+ M
+HELL
+ N
+Move not allowed (HELL in the board):
+    H
+HELLO
+    U
+    R
+Score calculation
+The score of a word is the sum of all its letters (including the letters of the horizontal word) using the following table:
+1 point: A E I L N O R S T U
+2 points: D G
+3 points: B C M P
+4 points: F H V W Y
+5 points: K
+8 points: J X
+10 points: Q Z
+Input
+The first line of the input gives the number of test cases, C, and C test cases follow. Each test case consists of a line with two strings, the letters in your rack (R) and the word on the board (B). 1 <= strlen(R) <= 25 , 1<=strlen(B) <= 25
+Output
+For each test case, output one line containing the best word found, and its score separated by a space. Ex. WORD SCORE. If there is more than one word with maximum score, the output should be the one with lower alphanumeric order.
+
+https://contest.tuenti.net/Questions?id=11

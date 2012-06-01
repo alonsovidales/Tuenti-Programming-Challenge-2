@@ -1,0 +1,26 @@
+Daniel's favourite food is pizza, which he likes to share with his girlfriend, Sara. As she also loves pizza, it is of utmost importance, in order to avoid unnecessary quarrels, to split the pizza into two equally-sized slices. Of course, the pizza contains ingredients such as pepperoni, sausage, pineapple, etc. These ingredients are delicate and cannot be cut*. As you can imagine, both Sara and Daniel must eat the same number of ingredients of each type.
+The pizza shop where they order from is not a typical one. They like to decorate their fabulous disks by using shaped ingredients. This spring, it is time for regular polygons!
+As you can easily observe, depending on the position, size and shape of the ingredients, it is not always possible to make a straight-line cut into the pizza in such a way that the two slices have the same area and the same number of ingredients of each type. Given a pizza and its ingredients, is there a straight-line cut that makes both Daniel and Sara happy?
+
+*An ingredient is cut if it is split in two slices with positive area.
+
+Input
+The first line of the input gives the number of test cases, C, and C test cases follow (1 ≤ C ≤ 50). Each test case has the following format.
+Cx Cy R 
+N 
+IDi Ni,e Ni 
+Cij,x Cij,y Vij,x Vij,y 
+
+Where, 
+(Cx, Cy) is the center of the pizza and R its radius. 
+N is a non-negative integer, 0 ≤ N ≤ 10, that tells how many different types of ingredients the pizza contains. 
+IDi is a string which identifies the i-ingredient. 
+Ni,e is an integer, 3 ≤ N ≤ 7, that indicates how many edges the ingredients of type IDi have. 
+Ni is an integer, 1 ≤ Ni ≤ 10, that indicates how many ingredients of type IDi the pizza has. 
+(Cij,x Cij,y) is the center of the ingredient ij, 1 ≤ j ≤ Ni 
+(Vij,x Vij,y) is a vertex of the ingredient ij 
+
+Output
+For each test case, output one line containing "Case #x: M", where x is the case number (starting from 1) and M is the string "TRUE" or "FALSE" depending on whether the pizza can be cut or not.
+
+https://contest.tuenti.net/Questions?id=17

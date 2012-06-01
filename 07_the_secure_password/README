@@ -1,0 +1,23 @@
+Everyday we need more passwords to access the growing number of services available online.
+We usually don't care if they are weak, but some of them are very important, as those used in online banking. For that reason, each bank has thought of a different way to protect their customers and allow secure transactions.
+A common method is to ask the user for some random characters from a password. For example, they may ask for the 1st, 3rd, and 5th characters; and if the password is 325467, the correct answer would be: 356.
+But is this method really secure? If someone gets the different subcodes, could he recover the full password?
+Given that the characters are always asked for in order, and assuming that passwords do not contain repeated characters, your objective is to find all the possible correct passwords.
+Input
+One line for each subcode used in a successful transaction. Subcodes contain only alphanumeric characters (0-9, A-Z, a-z).
+Output
+The shortest valid password(s). If there is more than one possible password, output all of them (one per line) in alphabetical order.
+Sample input
+2Ad
+12c
+2Ac
+2Bc
+1cd
+1xZ
+1dx
+BdZ
+Sample output
+12ABcdxZ
+12BAcdxZ
+
+https://contest.tuenti.net/Questions?id=7

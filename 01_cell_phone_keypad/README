@@ -1,0 +1,23 @@
+You are a new Tuenti mobile engineer, and your first task is to calculate how much time our users spend writing one message using a typical mobile phone keypad.
+
+We are only taking into account typists who use only one finger for typing. These are the mean times for these actions:
+Move the finger one position up or down: 300 ms
+Move the finger one position left or right: 200 ms
+Move the finger one position in diagonal: 350 ms
+Press a button one time: 100 ms
+If they need to type two consecutive characters from the same button, they need to wait 500 ms after the first character. Otherwise, they are still rotating the previous character.
+The number appears as the last character after pressing consecutively the same button (digit 5 needs four button presses). A space character is entered with the 1 button and only needs to be pressed once (digit 1 needs two button presses). The button in the lower right corner is the caps lock; it should be pressed one time to change all the next characters to upper case, and another time to change back to lowercase.
+The user starts with his finger already placed on the 0 button and the caps lock is disabled (starts in lowercase mode).
+Input
+The first line of the input gives the number of test cases C, and C test cases follow. Every test case is a line with the text that the user needs to type.
+Output
+One line for each test case with the total time spent by the user typing the message.
+Sample input
+2
+HI 20
+tu
+Sample output
+4000
+1100
+
+https://contest.tuenti.net/Questions?id=1

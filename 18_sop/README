@@ -1,0 +1,13 @@
+Ok, I uset the bf.py to obtain the secret code from the input converting the Bee to Ook:
+	- Language: http://es.wikipedia.org/wiki/Ook!
+	- Code: https://github.com/JohannesCharra/ook/blob/master/bf.py
+
+Execute:  python bf.py -b program.bee
+The result is: Input is the number of straight cuts made through a round chocolate cake and output is the maximum number of cake pieces that can be produced.
+
+I created a program called: beeeeeee.py using this:
+http://books.google.es/books?id=Z3TkuH5MVuAC&lpg=PA261&ots=L25GlKFxrX&dq=plane%20cuts%20in%20three%20space&hl=es&pg=PA262#v=onepage&q=plane%20cuts%20in%20three%20space&f=false
+
+And seems to work :)
+
+https://contest.tuenti.net/Questions?id=18

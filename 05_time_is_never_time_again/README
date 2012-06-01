@@ -1,0 +1,13 @@
+And you could never ever live...
+If you were here last year, you will remember those marvelous clocks that we had. If not, you can still take a look at them. The point is... well... we still keep using them.
+They are 7 LED-per-digit clocks, 6 digits, 24 hours (so no a.m. and p.m. indicators). The first clock is a bit old and a bit inefficient, as it wastes energy to display a number. To go from 00:00:00 to 00:00:01, it turns all the LEDs (36) off and on again to show 00:00:01 (32 in this case). The second clock is still old, but from a newer generation, which tries to save some of that precious energy that we need. This clock is able to calculate the deltas needed in order to go from one number to the next, so that it will not trigger unnecessary LEDs. In the example above, to go from 00:00:00 to 00:00:01 it will not light any new LEDs, as it just has to turn some off. And to go from 00:00:01 to 00:00:02 it will need to calculate the LED differences between 1 and 2, which is 4 (still a savings compared to the old clock, which will need 5).
+You will be given two dates. Your task is to calculate the inefficiency of the old clock compared to the new one (so the difference in the number of LEDs turned on), when starting in one date and time and finishing in the other. Assume both clocks are off and are being turned on at the first date, so they will both require lighting all the necessary LEDs to show 00:00:00.
+
+Input
+Two dates in the format:
+2012-01-18 00:00:00 - 2012-01-24 01:04:16.
+Output
+The difference in the number of LEDs turned on in the two clocks.
+
+https://contest.tuenti.net/Questions?id=5
+

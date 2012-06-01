@@ -1,0 +1,3 @@
+There are three keys hidden inside the image using three different methods. The keys are made of hexadecimal characters and are all the same size. The input has the same format as the keys and the output is the sum of the 3 keys + the input digit by digit (in hex) and modulo 16 (or 10 in hex).
+
+https://contest.tuenti.net/Questions?id=12

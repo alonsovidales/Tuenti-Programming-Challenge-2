@@ -1,0 +1,16 @@
+You have just entered a secret room, and in this secret room there is a secret computer, and inside the computer there is a secret file full of knowledge dating back to the dawn of time. Everything looks wonderful, magnificent... outrageous! But you just realised that the building is on fire and you have no time to read millions of pages. You need to search really fast inside the documents in order to find the most interesting parts and run for your life! You decided to write a program to do it (it is an advantage to be the fastest programmer in the world). Good luck!
+The documents are inside this archive (7zip). Apart from whitespaces, you can find only text written with letters (a to z) and numbers; no commas, dots or other punctuation symbols. There are exactly 800 documents, from 0001 to 0800.
+Given a word and an integer representing the appearance of that word in the bunch of documents, you need to find the document, line and position within that line for the word (case-insensitive). For example, if the input is king 27 and the word king appears 20 times in document 0001, 2 times in document 0002 and 8 times in document 0003, you are looking for the 5th occurrence of the word king in document 0003. Suppose that the 5th appearance of the word king is on line 302 and it is the first word on that line. You need to return 3-302-1
+Input
+The first line of the input gives the number of test cases, C, and C test cases follow (1 ≤ C ≤ 120). Each test case consists of a line with a word W and an integer N, 0 ≤ N ≤ 109.
+Output
+For each test case, output one line containing "d-l-p", where d is the document, l the line in that document and p the position of the word in the line.
+Sample input
+2
+plasm 2
+chair 12
+Sample output
+2-6905-83
+2-4963-17
+
+https://contest.tuenti.net/Questions?id=9
